@@ -56,6 +56,7 @@
     border: 2px solid white;
     border-radius: 100px;
     padding: 7px 40px;
+    cursor: pointer;
 }
 
 .sec-1{
@@ -105,6 +106,7 @@
     color: white;
     padding: 7px 40px;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .text-container > p{
@@ -272,7 +274,44 @@ figcaption{
     height: 50px;
 }
 
+.mango{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background-image: url("./Assets/backgroundMangoSec.png");
+    background-color: #004B93;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
+}
+
+/* .backgroundMangoSec{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+} */
+
+.twoCanMango{
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+.mango-text{
+    position: absolute;
+    width: 50%;
+    /* top: 0%; */
+    bottom: 5%;
+    left: 5%;
+}
+
+.mango-text-2{
+    position: absolute;
+    height: 50%;
+    top: 5%;
+    left: 5%;
+
+}
 .sec-5{
     height: 100vh;
 }
@@ -347,13 +386,75 @@ figcaption{
     cursor: pointer;
 }
 
+.sec-8{
+    height: 100%;
+    width: 100%;
+}
+
+.link-images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0% 5%;
+}
+
+.link-images img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec-8 p{
+    color: #004B93;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
 footer{
     display: flex;
-    height: 30%;
+    /* align-items: center; */
+    height: 40vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #0065c3;
 }
-.footer-loog{
-    background-image: url("/Assets/logo.jpeg");
-    background-size: contain;
+.footer-logo{
+    width: 20%;
+    background-image: url("/Assets/pepsiLogo.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 30px ;
+}
+
+.footer-links{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links a{
+    display: block;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(25, 25, 26); */
+}
+
+.social img{
+    width: 50px;
+    margin: auto 10px;
+
+}
+
+.social a{
+    text-decoration: none;
 }
